@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    height: 13vh;
+    /* background-color: rgb(188, 181, 241); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font1);
+} 
+.left{
+    display: flex;
+}
+.left-nav-logo{
+    font-family: var(--fontforlogo);
+    font-weight: bolder;
+    color: rgb(38, 38, 223);
+}
+.left img{
+    width: 4vw;
+    height: 7vh;
+    border-radius: 22px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    margin: 0 4vw;
+}
+.navigation ul li{
+    display: flex;
+    align-items: center;
+    /* list-style: none; */
+    margin: 0 8px;
+    color: rgb(154, 154, 244);
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navigation ul li a:hover{
+    color:var(--main-color);
+}
+.right{
+    margin-right: 11px;
+}
+.right input{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 2px 9px;
+    font: var(--font1);
+}
+.container{
+ /* background-color:rgb(154, 154, 244); */
+ background-color: rgb(218 218 236);
+ display: flex;
+ flex-direction: column;
+ margin-top: 14px;
+ display: flex; 
+ padding: 2%;
+ border-radius: 16px;
+}
+.contheading{
+    font-family:'Merriweather', serif;
+    font-weight: bolder;
+    font-size: 79px;
+    color: rgb(38, 38, 223);
+}
+.cont-right p{
+    position: relative;
+    font-family:var(--font2);
+    font-size: 28px;
+    margin-top: 36px;
+    font-weight: bolder;
+}
+.contstartsig{
+    /* background-color:rgb(218 218 236); */
+    background-color: black;
+    color: white;
+    margin-top: 92px;
+    width: 245px;
+    height:43px;
+    border-radius: 35px;
+    font-family: var(--font1);
+}
+.contstartsig:hover{
+    cursor: pointer;
+    background-color:var(--main-color);
+
+}
+.ariticles{
+    margin: 7vh 13vw;   
+}  
+.arth2{
+    margin: auto;
+    font-family: var(--font1);
+} 
+.articlesec{
+    display: flex;
+}
+.articlesec img{
+    width: 21vw;
+    height: 29vh;
+    padding: 5px 11px;
+    border-radius: 19px;
+}
+.artcont{
+    width: 54vw;
+    margin-left: 24px;
+}
+.artcont p{
+    font-family: var(--font3);
+}
+.cont-info{
+    background-color: rgb(216, 216, 242);
+    width: 14vw;
+    border-radius: 6px;
+    font-family: 'Catamaran', sans-serif;;
+}
+.footer{
+    height: 10vh;
+    width: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigation{
+    background-color:rgb(208, 208, 244);
+}
+.container{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.submitform{
+    display: flex;
+    flex-direction: column;
+    width: 362px;
+    margin: auto;
+    font-size: large;
+}
+.submitform input{
+    padding: 6px;
+    margin-top: 26px;
+}
+#frm4{
+ margin-top: 10px;
+}
+.btn{
+    margin-top:19px;
+}

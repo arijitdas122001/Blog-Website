@@ -1,0 +1,38 @@
+#Publish{
+    padding: 7px 21px;
+    border: 1px solid;
+    border-radius: 38px;
+    background-color: #3131cb;
+    color: white;
+    transition:all 0.3s ease-in-out;
+    font-family: var(--font1);
+    font-weight: bold;
+}
+#Publish:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}   
+.publishform{
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frm2{
+    display: flex;
+    flex-direction: column;
+    width: 58vw;
+}
+.frminputs{
+    padding: 6px 6px;
+    margin-bottom: 21px;
+    font-family: var(--font2);
+    border:none;
+    color: black;
+    font-weight: bolder;
+}
+#nameA{
+    font-weight: bold;
+    font-size: large;
+}

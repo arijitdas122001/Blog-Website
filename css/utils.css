@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Baloo+Bhaina+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+:root{
+    --main-color:rgb(110, 110, 245);
+ --font1:'Baloo Bhai 2', cursive;
+ --font2:'Roboto Mono', monospace;
+ --font3:'Merriweather', serif;
+ --fontforlogo:'Merriweather', serif;
+}
+.max-width1{
+max-width:86vw;
+}
+.max-width2{
+max-width: 72vw;
+}
+.center{
+    margin: auto;
+}
+.margin-tb{
+margin-top: 12px;
+margin-bottom: 12px;
+}   
+.btn{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 2px 2px;
+    width: 7vw;
+    font: var(--font1);
+    transition:all 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(110, 110, 245);
+    cursor: pointer;
+}
