@@ -1,0 +1,35 @@
+<%- include('header') %>
+
+    <body>
+        <nav class="navigation max-width1 center">
+            <div class="left">
+                <span class="left-nav-logo">Bblogs</span>
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="contact">Connect</a></li>
+                    <li><a href="contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <input class="serachinput" id="srchinp" type="text" placeholder="Serch by author name">
+                <button class="searchbtn btn" id="btn1">Search</button>
+            </div>
+        </nav>
+        <div class="max-width1 center">
+            <hr>
+        </div>
+        <div class="container max-width1 center margin-tb">
+            <div class="cont-right margin-tb">
+                <div class="contheading">Stay Curious</div>
+                <p data-text="Discover stories, thinking, and expertise from writers on any topic.">Discover stories,
+                    thinking,
+                    and expertise from writers on any topic.</p>
+            </div>
+            <button class="contstartsig">Share Your Knowledge With Us</button>
+        </div>
+        <div class="max-width1 center">
+            <hr>
+            <div class="articles center max-width1 margin-tb" id="art">
+                <h2 class="arth2">Latest Articles</h2>
+                    <%-include('show_form') %>
+                <%- include('footer') %>
