@@ -13,11 +13,13 @@
     background-color: white;
     color: black;
 }   
-.publishform{
+.publishform{   
     margin-top: 53px;
     display: flex;
     justify-content: center;
     align-items: center;
+    size: 32px;
+
 }
 .frm2{
     display: flex;

@@ -9,4 +9,4 @@ const scheme=new mongoose.Schema({
     
 });
 const userdb=mongoose.model('mongs',scheme);
-module.exports=userdb;  
+module.exports=userdb; 
