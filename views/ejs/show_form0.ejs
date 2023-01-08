@@ -1,0 +1,25 @@
+<% for(var i=0; i < user.length; i++) { %>
+    <div class="articlesec" id="art1">
+        <div class="articleimg"><img src="/img/logo.jpg" alt="err"></div>
+        <div class="artcont">
+            <h5>
+                <%= user[i].author %>...
+            </h5>
+            <h4>
+                <%= user[i].title %>...
+            </h4>
+            <p>
+                <%= user[i].desc %>
+            </p>
+            <div class="cont-info">
+                <span><%= user[i].date %></span>
+                <span>.</span>
+                <span><%= user[i].readtime %></span>
+                <span>.</span>
+                <span>Tagz</span>
+            </div>
+        </div>
+    </div>
+    <hr>
+    </div>
+    <% } %>
